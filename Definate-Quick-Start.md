@@ -1,6 +1,3 @@
-# Table of Contents #
-
-
 # Overview of Definate #
 Definate is a generic framework capable of generating ACL definitions, with definitions specified in a configuration file independent of the code to generate them.
 
