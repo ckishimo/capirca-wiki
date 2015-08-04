@@ -1,6 +1,3 @@
-# Table of Contents #
-
-
 # Definate Design Doc #
 
 Status: Final<br>
