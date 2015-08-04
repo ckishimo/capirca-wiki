@@ -1,6 +1,3 @@
-# Table of Contents #
-
-
 # Introduction #
 
 The policy library is intended for parsing the generic high-level policy files and returning a policy object for acl rendering.  The policy library depends on a [naming library](NamingLibrary.md) object to be able to interpret network and service tokens.
