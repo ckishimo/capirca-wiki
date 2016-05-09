@@ -4,3 +4,4 @@
 
 # Wishlist items for Capirca Development
 1. Re-Think SRX addressbook managment (ankenyr)
+2. Change project layout to better allow for better packaging. https://groups.google.com/forum/#!topic/capirca-dev/mGls2XFH7ug
