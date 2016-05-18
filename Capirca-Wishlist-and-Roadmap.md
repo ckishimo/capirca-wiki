@@ -4,6 +4,7 @@
 3. Change project layout to better allow for better packaging. https://groups.google.com/forum/#!topic/capirca-dev/mGls2XFH7ug
 4. Move all tests into a single directory and remove duplicate tests.
 5. Remove definate tools.
+6. Use Tavis for testing.
 
 # Wishlist Items for Capirca Development
 1. Re-Think SRX addressbook managment (ankenyr)
