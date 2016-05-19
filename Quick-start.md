@@ -68,6 +68,4 @@ vi ./filters/my-custom.ipt
 
 # Help #
 
-Discussion Forum: http://groups.google.com/group/capirca-dev
-
-Group email: capirca-dev@googlegroups.com
+Please raise an issue here on GitHub
