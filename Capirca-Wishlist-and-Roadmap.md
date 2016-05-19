@@ -5,6 +5,7 @@
 4. Move all tests into a single directory and remove duplicate tests.
 5. Remove definate tools.
 6. Use Tavis for testing.
+7. Update documentation.
 
 # Wishlist Items for Capirca Development
 1. Re-Think SRX addressbook managment (ankenyr)
