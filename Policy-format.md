@@ -36,6 +36,17 @@ Likewise, the 4th target, "cisco" simply specifies the name of the access contro
 
 Each target platform may have different possible arguments, which are detailed in the following subsections.
 
+### Arista ###
+The arista header designation has the following format:
+```
+target:: arista [filter name] {standard|extended|object-group|inet6}
+```
+  * _filter name_: defines the name of the arista filter.
+  * _standard_: specifies that the output should be a standard access list
+  * _extended_: specifies that the output should be an extended access list
+  * _object-group_: specifies this is a arista extended access list, and that object-groups should be used for ports and addresses.
+  * _inet6_: specifies the output be for IPv6 only filters.
+
 ### Juniper ###
 The juniper header designation has the following format:
 ```
