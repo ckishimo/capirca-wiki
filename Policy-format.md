@@ -55,6 +55,8 @@ target:: aruba [filter name] {ipv6}
   * _filter name_: defines the name of the arista filter.
   * _ipv6_: specifies the output be for IPv6 only filters.
 
+### Brocade ###
+See Cisco
 
 ### Juniper ###
 The juniper header designation has the following format:
