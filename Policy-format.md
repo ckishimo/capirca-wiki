@@ -47,6 +47,15 @@ target:: arista [filter name] {standard|extended|object-group|inet6}
   * _object-group_: specifies this is a arista extended access list, and that object-groups should be used for ports and addresses.
   * _inet6_: specifies the output be for IPv6 only filters.
 
+### Aruba ###
+The aruba header designation has the following format:
+```
+target:: aruba [filter name] {ipv6}
+```
+  * _filter name_: defines the name of the arista filter.
+  * _ipv6_: specifies the output be for IPv6 only filters.
+
+
 ### Juniper ###
 The juniper header designation has the following format:
 ```
