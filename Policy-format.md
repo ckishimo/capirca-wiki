@@ -100,9 +100,16 @@ See Cisco
 ### GCE ###
 The GCE header designation has the following format:
 ```
-target:: juniper [filter name]
+target:: gce [filter name]
 ```
-  * _filter name_: defines the name of the juniper filter.
+  * _filter name_: defines the name of the gce filter.
+
+### NFTables ###
+The NFTables header designation has the following format:
+```
+target:: nftables [filter name]
+```
+  * _filter name_: defines the name of the nftables filter.
 
 ### Iptables ###
 NOTE: Iptables produces output that must be passed, line by line, to the 'iptables/ip6tables' command line.  For 'iptables-restore' compatible output, please use the [Speedway](PolicyFormat#Speedway.md) generator.
