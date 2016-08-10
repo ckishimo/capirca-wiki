@@ -94,6 +94,9 @@ The ciscoasa header designation has the following format:
 target:: ciscoasa [filter name]
 ```
 
+### CiscoXR ###
+See Cisco
+
 ### Iptables ###
 NOTE: Iptables produces output that must be passed, line by line, to the 'iptables/ip6tables' command line.  For 'iptables-restore' compatible output, please use the [Speedway](PolicyFormat#Speedway.md) generator.
 
