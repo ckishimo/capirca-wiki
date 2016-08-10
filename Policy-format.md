@@ -174,6 +174,23 @@ target:: packetfilter {inet|inet6|mixed}
   * _inet6_: specifies that the resulting filter should only render IPv6 addresses.
   * _mixed_: specifies that the resulting filter should only render IPv4 and IPv6 addresses (default).
 
+### Windows Advanced Firewall ###
+The Windows Advanced Firewall header designation has the following format:
+```
+target:: windows_advfirewall {out|in} {inet|inet6|mixed}
+```
+  * _out_: Specifies that the direction of packet flow is out. (default)
+  * _in_: Specifies that the direction of packet flow is in.
+  * _inet_: specifies that the resulting filter should only render IPv4 addresses.
+  * _inet6_: specifies that the resulting filter should only render IPv6 addresses.
+
+### Windows IPSec ###
+The Windows IPSec header designation has the following format:
+```
+target:: windows_advfirewall [filter_name]
+```
+  * _filter name_: defines the name of the Windows IPSec filter.
+
 ### Ipset ###
 Ipset is a system inside the Linux kernel, which can very efficiently store and match IPv4 and IPv6 addresses. This can be used to dramatically increase performance of iptables firewall.
 
