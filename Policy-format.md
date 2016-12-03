@@ -107,12 +107,13 @@ target:: gce [filter name]
 ### NFTables ###
 The NFTables header designation has the following format:
 ```
-target:: nftables [chain name] [filter name] [priority] [inet version]
+target:: nftables [chain name] [filter name] [priority] [inet,inet6]
 ```
   * _chain name_: defines the name of the nftables chain.
   * _filter name_: defines the name of the nftables filter.
   * _priority_: defines the integer of the nftables chain priority.
-  * _inet version_: defines the name of the nftables IP version.
+  * _inet_: specifies that the resulting filter should only render IPv4 addresses.
+  * _inet6_: specifies that the resulting filter should only render IPv6 addresses.
 
 NOTE: all of these fields are required.
 
