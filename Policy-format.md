@@ -107,9 +107,14 @@ target:: gce [filter name]
 ### NFTables ###
 The NFTables header designation has the following format:
 ```
-target:: nftables [filter name]
+target:: nftables [chain name] [filter name] [priority] [inet version]
 ```
+  * _chain name_: defines the name of the nftables chain.
   * _filter name_: defines the name of the nftables filter.
+  * _priority_: defines the integer of the nftables chain priority.
+  * _inet version_: defines the name of the nftables IP version.
+
+NOTE: all of these fields are required.
 
 ### NSXV ###
 The nsxv header designation has the following format:
