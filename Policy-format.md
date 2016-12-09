@@ -120,11 +120,11 @@ NOTE: all of these fields are required.
 ### NSXV ###
 The nsxv header designation has the following format:
 ```
-target:: nsxv [filter name] {inet|inet6}
+target:: nsxv {inet|inet6} [filter name]
 ```
-  * _filter name_: defines the name of the nsxv filter.
   * _inet_: specifies the output should be for IPv4 only filters. This is the default format.
   * _inet6_: specifies the output be for IPv6 only filters.
+  * _filter name_: defines the name of the nsxv filter.
 
 ### Iptables ###
 NOTE: Iptables produces output that must be passed, line by line, to the 'iptables/ip6tables' command line.  For 'iptables-restore' compatible output, please use the [Speedway](PolicyFormat#Speedway.md) generator.
