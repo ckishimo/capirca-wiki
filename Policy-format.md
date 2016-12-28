@@ -67,6 +67,8 @@ target:: juniper [filter name] {inet|inet6|bridge}
   * _inet_: specifies the output should be for IPv4 only filters. This is the default format.
   * _inet6_: specifies the output be for IPv6 only filters.
   * _bridge_: specifies the output should render a Juniper bridge filter.
+  * _dsmo_: Enable discontinuous subnet mask summarization.
+  * _not-interface-specific_: Toggles "interface-specific" inside of a term.
 
 When _inet4_ or _inet6_ is specified, naming tokens with both IPv4 and IPv6 filters will be rendered using only the specified addresses.
 
@@ -83,6 +85,7 @@ target:: cisco [filter name] {extended|standard|object-group|inet6|mixed}
   * _object-group_: specifies this is a cisco extended access list, and that object-groups should be used for ports and addresses.
   * _inet6_: specifies the output be for IPv6 only filters.
   * _mixed_: specifies output will include both IPv6 and IPv4 filters.
+  * _dsmo_: Enable discontinuous subnet mask summarization.
 
 When _inet4_ or _inet6_ is specified, naming tokens with both IPv4 and IPv6 filters will be rendered using only the specified addresses.
 
