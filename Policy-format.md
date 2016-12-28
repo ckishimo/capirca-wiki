@@ -61,7 +61,7 @@ See Cisco
 ### Juniper ###
 The juniper header designation has the following format:
 ```
-target:: juniper [filter name] {inet|inet6|bridge}
+target:: juniper [filter name] {inet|inet6|bridge} {dsmo} {not-interface-specific}
 ```
   * _filter name_: defines the name of the juniper filter.
   * _inet_: specifies the output should be for IPv4 only filters. This is the default format.
@@ -77,7 +77,7 @@ The default format is _inet4_, and is implied if not other argument is given.
 ### Cisco ###
 The cisco header designation has the following format:
 ```
-target:: cisco [filter name] {extended|standard|object-group|inet6|mixed}
+target:: cisco [filter name] {extended|standard|object-group|inet6|mixed} {dsmo}
 ```
   * _filter name_: defines the name or number of the cisco filter.
   * _extended_: specifies that the output should be an extended access list, and the filter name should be non-numeric.  This is the default option.
