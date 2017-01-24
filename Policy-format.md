@@ -251,6 +251,7 @@ The following are keywords that can be optionally supported by output generators
   * _counter::_ juniper only, update a counter for matching packets
   * _destination-interface::_ iptables and speedway only, specify specific interface a term should apply to (e.g. destination-interface:: eth3)
   * _destination-prefix::_ juniper only, specify destination-prefix matching (e.g. source-prefix:: configured-neighbors-only)
+  * _destination-prefix_except::_ juniper only, specify destination-prefix exception(TODO:cmas Fill in more).
   * _ether-type::_ juniper only, specify matching ether-type(e.g. ether-type:: arp)
   * _fragement-offset::_ juniper only, specify a fragment offset of a fragmented packet
   * _logging::_ supported juniper, srx and iptables/speedway, specify that this packet should be logged via syslog
@@ -263,6 +264,7 @@ The following are keywords that can be optionally supported by output generators
   * _routing-instance::_ juniper only, specify routing instance for matching packets
   * _source-interface::_ iptables and speedway only, specify specific interface a term should apply to (e.g. source-interface:: eth3)
   * _source-prefix::_ juniper only, specify source-prefix matching (e.g. source-prefix:: configured-neighbors-only)
+  * _source-prefix_except::_ juniper only, specify destination-prefix exception(TODO:cmas Fill in more).
   * _timeout::_ Juniper SRX only, specify application timeout (default 60)
   * _traffic-type::_ juniper only, specify traffic-type
 
