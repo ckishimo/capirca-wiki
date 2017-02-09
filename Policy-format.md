@@ -174,6 +174,23 @@ target:: srx from-zone [zone name] to-zone [zone name] {inet}
   * _to-zone_: static keyword, followed by user specified zone
   * _inet_: Address family (only IPv4 tested at this time)
 
+### Palo Alto: ###
+```
+target:: paloalto from-zone [zone name] to-zone [zone name]
+```
+  * _from-zone: static keyword, followed by user specified zone
+  * _to-zone: static keyword, followed by user specified zone
+
+Terms Section
+
+Optionally Supported Keywords
+
+  * _pan-application:: paloalto only, specify a Palo Alto application.
+
+The application needs to already be existing on the device.
+
+If an "application" is defined, but no "service", service will default to "application-default".
+
 ### PF (Packetfilter) ###
 Note: The PF generator is currently in alpha testing. The output should be compatible with OpenBSD v4.7 PF and later.
 ```
