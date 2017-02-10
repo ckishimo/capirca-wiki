@@ -74,6 +74,9 @@ When _inet4_ or _inet6_ is specified, naming tokens with both IPv4 and IPv6 filt
 
 The default format is _inet4_, and is implied if not other argument is given.
 
+### SRX LO ###
+SRX Loopback is a stateless Juniper ACL with minor changes. Please see code for changes.
+
 ### Cisco ###
 The cisco header designation has the following format:
 ```
