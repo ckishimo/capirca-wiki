@@ -25,11 +25,14 @@ python aclgen.py --help
 
 The following commands can be run from the parent installation directory to manually create a naming definitions object, policy objection, and render generator filter output.
 
-**Import naming library and create [naming object from definitions files](NamingLibrary.md)
+**Import naming library and create [naming object from definitions files](Naming-library.md)
+
 ```
   from lib import naming
   defs = naming.Naming(‘./def’)
-```**Import policy library, read in the [policy data](PolicyFormat.md), and create a policy object
+```
+**Import policy library, read in the [policy data](Policy-format.md), and create a policy object
+
 ```
   from lib import policy
   conf = open(‘./policies/sample.pol’).read()
